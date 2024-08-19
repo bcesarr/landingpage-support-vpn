@@ -11,11 +11,11 @@
 <body>
     <!-- Topo da Página -->
     <header>
-        <div class="logo-container">
+        <a href="#" class="logo-container">
             <img src="src/assets/icons/logoSupportVPN.svg" alt="Logo da SupportVPN">
             <h1>Support<b>VPN</b></h1>
-        </div>
-
+        </a>
+        
         <nav>
             <a href="#">About</a>
             <a href="#">Features</a>
@@ -42,7 +42,7 @@
             <button type="button">Get Started</button>
         </div>
 
-        <img src="src/assets/Illustration 1.svg" alt="Imagem de garoto branco mechendo no notebook com icones em volta">
+        <img src="src/assets/Illustration_1.svg" alt="Imagem de garoto branco mechendo no notebook com icones em volta">
     </section>
 
     <!-- Seção de informação - quantidades de usuarios, localizações e servidores -->
@@ -70,7 +70,7 @@
 
     <!-- Seção de Features -->
     <section class="features-container">
-        <img src="src/assets/Illustration 2.svg" alt="Pessoa feliz com computador, referência de features">
+        <img src="src/assets/Illustration_2.svg" alt="Pessoa feliz com computador, referência de features">
 
         <div>
             <div class="feat-div-title-par">
@@ -115,7 +115,7 @@
             <!-- Card Free Plan -->
             <div class="div-card-unitary">
                 <!-- Imagem de caixa de presente -->
-                <img src="src/assets/present.svg" alt="Imagem caixa de presente aberto">
+                <img src="src/assets/gift.svg" alt="Imagem caixa de presente aberto">
                 <h3>Free Plan</h3>
 
                 <!-- Descrição de opções do plano -->
@@ -139,16 +139,18 @@
                     <p>Works on All Devices</p>
                 </div>
 
-                <p style="margin-top: 130px;"><span>Free</span></p>
+                <div class="plan-free-button">
+                    <p><span>Free</span></p>
 
-                <!-- Botão -->
-                <button type="button">Select</button>
+                    <!-- Botão -->
+                    <button type="button">Select</button>
+                </div>
             </div>
 
             <!-- Card Standard Plan -->
             <div class="div-card-unitary">
                 <!-- Imagem de caixa de presente -->
-                <img src="src/assets/present.svg" alt="Imagem caixa de presente aberto">
+                <img src="src/assets/gift.svg" alt="Imagem caixa de presente aberto">
                 <h3>Standard Plan</h3>
 
                 <!-- Descrição de opções do plano -->
@@ -177,16 +179,18 @@
                     <p>Connect Anyware</p>
                 </div>
 
-                <p style="margin-top: 90px;"><span>$9</span> / mo</p>
+                <div class="plan-9-button">
+                    <p><span>$9</span> / mo</p>
 
-                <!-- Botão -->
-                <button type="button">Select</button>
+                    <!-- Botão -->
+                    <button type="button">Select</button>
+                </div>
             </div>
 
             <!-- Card Premium Plan -->
             <div class="div-card-unitary">
                 <!-- Imagem de caixa de presente -->
-                <img src="src/assets/present.svg" alt="Imagem caixa de presente aberto">
+                <img src="src/assets/gift.svg" alt="Imagem caixa de presente aberto">
                 <h3>Premium Plan</h3>
 
                 <!-- Descrição de opções do plano -->
@@ -220,10 +224,12 @@
                     <p>Get New Features</p>
                 </div>
 
-                <p style="margin-top: 50px;"><span>$12</span> / mo</p>
+                <div class="plan-12-button">
+                    <p><span>$12</span> / mo</p>
 
-                <!-- Botão -->
-                <button type="button">Select</button>
+                    <!-- Botão -->
+                    <button type="button">Select</button>
+                </div>
             </div>
 
         </div>
@@ -326,11 +332,11 @@
 
                 <div class="buttons-comments-sets">
                     <button type="button">
-                        <img src="src/assets/icons/arrow-left-circle.svg" alt="botão seta para a esquerda">
+                        <i class="bi bi-arrow-left-short"></i>
                     </button>
 
                     <button type="button">
-                        <img src="src/assets/icons/arrow-right-circle-fill.svg" alt="botão seta para a direita">
+                        <i class="bi bi-arrow-right-short"></i>
                     </button>
                 </div>
             </div>
@@ -349,17 +355,25 @@
     <!-- Rodapé da Página -->
     <footer>
         <div class="company-information">   <!-- Primeira parte do rodapé -->
-            <div class="logo-container">
+            <a href="#" class="logo-container">
                 <img src="src/assets/icons/logoSupportVPN.svg" alt="Logo da SupportVPN">
                 <h1>Support<b>VPN</b></h1>
-            </div>
+            </a>
 
             <p> <b>SupportVPN</b> is a private virtual network that<br>has unique features and has high security.</p>
 
             <div class="social-midias-logos">
-                <img src="src/assets/icons/icon_facebook.svg" alt="Icone do facebook">
-                <img src="src/assets/icons/icon_twitter.svg" alt="Icone do twiter">
-                <img src="src/assets/icons/icon_instagram.svg" alt="Icone do instagram">
+                <a href="#">
+                    <img src="src/assets/icons/icon_facebook.svg" alt="Icone do facebook">
+                </a>
+
+                <a href="#">
+                    <img src="src/assets/icons/icon_twitter.svg" alt="Icone do twiter">
+                </a>
+
+                <a href="#">
+                    <img src="src/assets/icons/icon_instagram.svg" alt="Icone do instagram">
+                </a>
             </div>
 
             <p><span>©2020Lasles<b>VPN</b></span></p>
@@ -369,31 +383,77 @@
             <!-- Product -->
             <div class="div-product">
                 <p><span>Product</span></p>
+                
+                <a href="#">
                 <p>Download</p>
+                </a>
+
+                <a href="#">
                 <p>Pricing</p>
+                </a>
+
+                <a href="#">
                 <p>Locations</p>
+                </a>
+
+                <a href="#">
                 <p>Server</p>
+                </a>
+
+                <a href="#">
                 <p>Countries</p>
+                </a>  
+                
+                <a href="#">
                 <p>Blog</p>
+                </a>
+
             </div>
 
             <!-- Engage -->
             <div class="div-engage">
                 <p><span>Engage</span></p>
+
+                <a href="#">
                 <p>LaslesVPN</p>
+                </a>
+
+                <a href="#">
                 <p>FAQ</p>
+                </a>
+
+                <a href="#">
                 <p>Tutorials</p>
+                </a>
+
+                <a href="#">
                 <p>About Us</p>
+                </a>
+
+                <a href="#">
                 <p>Privacy Pollicy</p>
+                </a>
+
+                <a href="#">
                 <p>Terms of Service</p>
+                </a>
+
             </div>
 
             <!-- Earn Money -->
             <div class="div-earn-money">
                 <p><span>Earn Money</span></p>
+
+                <a href="#">
                 <p>Affiliate</p>
+                </a>
+
+                <a href="#">
                 <p>Become Partner</p>
+                </a>    
+
             </div>
+
         </div>
 
     </footer>
