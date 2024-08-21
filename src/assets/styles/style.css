@@ -588,6 +588,12 @@ footer {
     margin-top: 184.78px;
 }
 
+.company-information>.logo-container h2 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #0B132A;
+}
+
 .company-information p {
     margin-top: 20px;
     font-size: 16px;
@@ -618,50 +624,62 @@ footer {
 }
 
 .div-product {
+    display: flex;
+    flex-direction: column;
     margin-right: 126px;
 }
 
-.div-product span {
+.div-product p {
     font-size: 18px;
     font-weight: 500;
     color: #0B132A;
     margin-bottom: 20px;
 }
 
-.div-product p {
+.div-product a {
     font-size: 16px;
     font-weight: 400;
+    color: #4F5665;
     margin-bottom: 20px;
 }
 
 
 .div-engage {
+    display: flex;
+    flex-direction: column;
     margin-right: 125px;
 }
 
-.div-engage span {
+.div-engage p {
     font-size: 18px;
     font-weight: 500;
     color: #0B132A;
     margin-bottom: 20px;
 }
 
-.div-engage p {
+.div-engage a {
     font-size: 16px;
     font-weight: 400;
+    color: #4F5665;
     margin-bottom: 20px;
 }
 
 
-.div-earn-money span {
-    font-size: 18px;
-    font-weight: 500;
-    color: #0B132A;
-    margin-bottom: 20px;
+.div-earn-money {
+    display: flex;
+    flex-direction: column;
 }
 
 .div-earn-money p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0B132A;
+    margin-bottom: 20px;
+}
+
+.div-earn-money a {
     font-size: 16px;
     font-weight: 400;
+    color: #4F5665;
     margin-bottom: 20px;
 }
