@@ -239,6 +239,7 @@ p {
 /* Seção dos planos */
 .plan-container {   /* Seção geral que pega desde o titulo aos cards */  
     text-align: center;
+    margin-bottom: 180px;
 }
 
 .plan-container h2 {   /* Titulo da seção - Choose Your Plan */
@@ -265,7 +266,6 @@ p {
     height: 760px;
     border: 2px solid #DDDDDD;
     border-radius: 10px;
-    margin-bottom: 150px;
     text-align: center;
 }
 
@@ -359,6 +359,7 @@ p {
 /* Seção do mapa mundi */
 .world-map-container {
     text-align: center;
+    margin-bottom: 36px;
 }
 
 .world-map-container h2 {
@@ -380,7 +381,6 @@ p {
 .world-map-container img {
     width: 1060px;
     height: 538px;
-    margin-bottom: 36px;
 }
 
 
@@ -806,7 +806,7 @@ footer {
         align-items: center;
         flex-direction: column;
         text-align: center;
-        margin-bottom: 200px;
+        margin-bottom: 180px;
     }
 
     .features-container img {
@@ -844,6 +844,7 @@ footer {
     .plan-container {   /* Seção geral que pega desde o titulo aos cards */  
         text-align: center;
         width: 430px;
+        margin-bottom: 180px;
     }
     
     .plan-container h2 {   /* Titulo da seção - Choose Your Plan */
@@ -916,6 +917,7 @@ footer {
     /* Seção de Mapa VPN */
     .world-map-container {
         width: 430px;
+        margin-bottom: 150px;
     }
     
     .world-map-container h2 {
@@ -932,7 +934,6 @@ footer {
     .world-map-container img {
         width: 400px;
         height: 300px;
-        margin-bottom: 30px;
     }
 
 
@@ -942,3 +943,85 @@ footer {
     }
 
 
+    /* Seção de comentarios */
+    .comments-container {   /* Seção inteira da parte dos comentários */
+        display: none;
+    }
+
+    /* Seleção entre o final da pagina e o footer */
+    .subscribe-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 400px;
+        height: 240px;
+        top: 420%;
+        border: 2px solid black;
+    }
+
+    .div-subscribe-title-parag {
+        margin-top: -15px;
+    }
+
+    .subscribe-container h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .subscribe-container p {
+        font-size: 16px;
+    }
+
+    .subscribe-container button {
+        margin-top: 25px;
+    }
+
+
+    /* Rodapé da Pagina */
+    footer {
+        width: 430px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*  Primeira parte do rodapé */
+    .company-information>.logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .social-midias-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+
+    /* Segunda parte do rodapé (opções de links) */
+    .div-footer-options {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+
+    .div-product {
+        margin-right: 30px;
+    }
+
+
+    .div-engage {
+        margin-right: 0px;
+    }
+
+}
