@@ -194,8 +194,9 @@ p {
 /* Titulo e Paragrafo */
 .features-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 211px;
+    gap: 169.48px;
 }
 
 .features-container img {
@@ -257,8 +258,9 @@ p {
 .div-cards-geral {   /* Seção que pega todos os cards */
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 60px;
+    gap: 50px;
 }
 
 .div-card-unitary {   /* Seção dos cards - unitarios - Parte de dentro dos cards */
@@ -410,7 +412,7 @@ p {
 
 .cards-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
     gap: 50px;
@@ -473,10 +475,11 @@ p {
 /* Parte da seleção dos comentarios (seletor que mostra a parte atual selecionada dos mentarios e setas) */
 .comment-select {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 82px;
     margin-left: 150px;
     margin-right: 150px;
+    gap: 865px;
 }
 
 /* Botão das setas da parte dos comentarios */
@@ -579,8 +582,9 @@ p {
 /* Rodapé da Pagina */
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #F8F8F8;
+    gap: 230px;
     margin-bottom: 95px;
 }
 
@@ -697,12 +701,13 @@ footer {
     /* Topo da Página */
     header {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
 
     .logo-container {
-        margin-right: 30px;
+        margin-left: 5px;
+        margin-right: 0px;
     }
 
     .logo-container img {
@@ -1020,7 +1025,7 @@ footer {
         display: flex;
         justify-content: center;
         text-align: left;
-        margin-top: 60px;
+        margin-top: 0px;
         margin-bottom: 20px;
         gap: 20px;
     }
