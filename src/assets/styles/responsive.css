@@ -1,0 +1,364 @@
+/* Responsividade - Mobile (Celular) */
+
+@media screen and (max-width: 430px) {
+    /* Todo corpo da Página */
+    body {
+        width: 100%;
+    }
+
+
+    /* Topo da Página */
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo-container {
+        margin-left: 5px;
+        margin-right: 0px;
+    }
+
+    .logo-container img {
+        width: 33px;
+        height: 30px;
+    }
+
+    .logo-container h1 {
+        font-size: 18px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .access-container {
+        gap: 15px;
+    }
+
+    .access-container :last-child {
+        width: 85px;
+        height: 35px;
+    }
+
+
+    /* Sobre o Hero da Página */
+    .about-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-container img {
+        width: 350px;
+    }
+
+    .section-content h2 {
+        width: 340px;
+        font-size: 28px;
+        margin-top: 0px;
+    }
+
+    .section-content p {
+        width: 340px;
+    }
+
+    .section-content button {
+        margin-top: 40px;
+    }
+
+    
+    /* Seção de informação */
+    .info-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        margin-top: 110px;
+        margin-bottom: 110px;
+    }
+
+    .info-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .info-div img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
+    
+    .info-div p {
+        font-size: 18px;
+    }
+    
+    .info-div span {
+        font-size: 20px;
+    }
+    
+
+    /* Seção de Features */
+    /* Titulo e Paragrafo */
+    .features-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 180px;
+    }
+
+    .features-container img {
+        width: 350px;
+        height: 400px;
+        margin-bottom: -15px;
+    }
+
+    .feat-div-title-par h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .feat-div-title-par p {
+        width: 340px;
+        margin-bottom: 30px;
+    }
+
+    /* Features - Afirmações */
+    .feat-div-afirmatives {
+        display: flex;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 16px;
+    }
+
+    .feat-div-afirmatives img {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    /* Seção de Planos */
+    .plan-container {   /* Seção geral que pega desde o titulo aos cards */  
+        text-align: center;
+        width: 100%;
+        margin-bottom: 180px;
+    }
+    
+    .plan-container h2 {   /* Titulo da seção - Choose Your Plan */
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    
+    .plan-container p {
+        width: 100%;
+    }
+    
+    
+    .div-cards-geral {   /* Seção que pega todos os cards */
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 20px
+    }
+    
+    .div-card-unitary {   /* Seção dos cards - unitarios - Parte de dentro dos cards */
+        height: 760px;
+        text-align: center;
+    }
+
+    .div-card-unitary > img {
+        margin-top: 30px;
+    }
+    
+    /* Seção das informações de dentro dos cards (Parte das opções) ERRO DE CENTRALIZAÇÃO*/
+    
+    .div-cards-info p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    
+    /* Volta para fora da seção das opções - seção do plano (valor) e botão */
+    
+    .plan-free-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        text-align: center;
+        margin-top: 115px;
+    }
+    
+    .plan-9-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 65px;
+    }   
+    
+    .plan-12-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .div-card-unitary button {
+        width: 165px;
+    }
+
+
+    /* Seção de Mapa VPN */
+    .world-map-container {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    
+    .world-map-container h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .world-map-container p {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .world-map-container img {
+        width: 370px;
+        height: 300px;
+    }
+
+
+    /* Seção de Empresas que Utilizam o Serviço */
+    .companies-logos-container {
+        display: none;
+    }
+
+
+    /* Seção de comentarios */
+    .comments-container {   /* Seção inteira da parte dos comentários */
+        display: none;
+    }
+
+    /* Seleção entre o final da pagina e o footer */
+    .subscribe-container {
+        width: 100%;
+        height: 240px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        position: static;
+        transform: translate(0%, 0%);
+        top: 0%;
+        left: 0%;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .div-subscribe-title-parag {
+        margin-top: -15px;
+    }
+
+    .subscribe-container h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .subscribe-container p {
+        font-size: 16px;
+    }
+
+    .subscribe-container button {
+        margin-top: 25px;
+    }
+
+
+    /* Rodapé da Pagina */
+    footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*  Primeira parte do rodapé */
+    .company-information {
+        margin-top: 40px;
+        margin-bottom: -160px;
+    }
+
+    .company-information>.logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .social-midias-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+
+    /* Segunda parte do rodapé (opções de links) */
+    .div-footer-options {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        gap: 20px; 
+    }
+
+    .div-product {
+        margin: 0px;
+    }
+
+    .div-engage {
+        margin: 0px;
+    }
+
+    .div-earn-money {
+        margin: 0px;
+    }
+
+}
+
+
+/* Responsividade - Mobile (Tablet) */
