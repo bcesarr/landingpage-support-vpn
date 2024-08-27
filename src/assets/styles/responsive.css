@@ -29,10 +29,80 @@
         font-size: 18px;
     }
 
-    nav {
+    /* Menu Desktop */
+    .desktop-menu {
         display: none;
     }
 
+
+    /* Menu Mobile */
+    .open-menu-button i {  /* Botão Abrir Menu Mobile */
+        font-size: 30px;
+        margin: 0;
+        margin-right: 5px;
+        color: #000000;
+    }
+
+    .mobile-menu {  /* Estrutura do Menu Mobile */
+        display: block;
+        width: 0%;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        z-index: 99999;
+        overflow: hidden;
+        transition: 0.3s;
+        background-color: #f53838;
+    }
+
+    /* Ação do Javascript no Menu Mobile */
+    .mobile-menu.abrir-menu {  /* Classe (abrir-menu) Criada no Javascript para Abrir o Menu na Versão Mobile */
+        width: 60%;
+    }
+
+    .mobile-menu.abrir-menu ~ .overlay-menu {  /* Adicionando e Habilitando o Efeito da Classe overlay-menu ao Abrir o Menu Mobile */
+        display: block;
+    }
+
+    .mobile-menu .closed-button {  /* Estrutura do Botão Fechar Menu Mobile */
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .mobile-menu .closed-button i {  /* Botão Fechar Menu Mobile */
+        font-size: 25px;
+        color: white;
+    }
+
+    .mobile-menu>nav>ul {  /* Lista com as Opções do Menu Mobile */
+        text-align: right;
+    }
+
+    .mobile-menu>nav>ul>li>a {  /* Especificamente Configurações nas Opções/Links */
+        color: #F8F8F8;
+        padding: 15px 20px;
+        display: block;
+    }
+
+    .mobile-menu>nav>ul>li>a:hover {
+        background-color: white;
+        color: #4F5665;
+    }
+
+    .overlay-menu{  /* Efeito para Escurecer a Tela ao Abrir o Menu Mobile */
+        background-color: #f538383d;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 88888;
+        display: none;
+    }
+
+
+    /* Botões do Topo da Página */
     .access-container {
         gap: 15px;
     }
@@ -454,9 +524,13 @@
     }
 
     /* Menus de navegação / Links de ancoragem */
-    nav {
+    .desktop-menu ul {
         margin-right: 70px;
         gap: 30px;
+    }
+
+    .mobile-menu {
+        display: none;
     }
 
 

@@ -48,15 +48,32 @@ header {
 
 
 /* Menus de navegação / Links de ancoragem */
-nav {
+
+
+nav>ul {
+    list-style-type: none;
+}
+
+nav>ul>li>a {
+    color: #4F5665;
+    font-size: 16px;
+}
+
+
+/* Menu Desktop */
+.desktop-menu ul {
     display: flex;
     margin-right: 153px;
     gap: 37px;
 }
 
-nav a {
-    color: #4F5665;
-    font-size: 16px;
+/* Menu Mobile */
+.open-menu-button {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
 }
 
 
