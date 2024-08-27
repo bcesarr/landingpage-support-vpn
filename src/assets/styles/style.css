@@ -18,6 +18,7 @@
 
 /* Topo do site */
 header {
+    width: 100%;
     display: flex;
     justify-content: center;   /* Alinha no horizontal */
     align-items: center;   /* Alinha na vertical */
@@ -92,6 +93,7 @@ button {
 
 /* Hero da página - Primeira seção após o header */
 .about-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,6 +195,7 @@ p {
 
 /* Titulo e Paragrafo */
 .features-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 211px;
@@ -239,6 +242,7 @@ p {
 
 /* Seção dos planos */
 .plan-container {   /* Seção geral que pega desde o titulo aos cards */  
+    width: 100%;
     text-align: center;
     margin-bottom: 180px;
 }
@@ -360,6 +364,7 @@ p {
 
 /* Seção do mapa mundi */
 .world-map-container {
+    width: 100%;
     text-align: center;
     margin-bottom: 36px;
 }
@@ -388,12 +393,14 @@ p {
 
 /* Seção de logos das empresas */
 .companies-logos-container {
+    width: 100%;
     text-align: center;
 }
 
 
 /* Seção de comentarios */
 .comments-container {   /* Seção inteira da parte dos comentários */
+    width: 100%;
     text-align: center;
     margin-bottom: 176.75px;
 }
@@ -581,11 +588,12 @@ p {
 
 /* Rodapé da Pagina */
 footer {
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: #F8F8F8;
     gap: 230px;
-    margin-bottom: 95px;
+    margin-bottom: 0px;
 }
 
 /*  Primeira parte do rodapé */
@@ -625,6 +633,7 @@ footer {
     display: flex;
     text-align: left;
     margin-top: 184.78px;
+    margin-bottom: 10px;
 }
 
 .div-product {
