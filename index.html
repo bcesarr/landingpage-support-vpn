@@ -7,7 +7,7 @@
     <title>Support VPN</title>
     <link rel="stylesheet" href="src/assets/styles/style.css">
     <link rel="stylesheet" href="src/assets/styles/responsive.css">
-
+    <script src="functions.js" defer></script>
 </head>
 
 <body>
@@ -18,17 +18,42 @@
             <h1>Support<b>VPN</b></h1>
         </a>
         
-        <nav>  <!-- Menu Desktop -->
-            <a href="#">About</a>
-            <a href="#">Features</a>
-            <a href="#">Pricing</a>
-            <a href="#">Tertimonials</a>
-            <a href="#">Help</a>
+        <nav class="desktop-menu">  <!-- Menu Desktop -->
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Tertimonials</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
         </nav>
+
+        <div class="mobile-menu" id="mobile-menu">  <!-- Menu Mobile -->
+            <div class="closed-button" id="closed-button">  <!-- Fechar Menu Mobile -->
+                <i class="bi bi-x-lg"></i>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Tertimonials</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="overlay-menu" id="overlay-menu"></div>  <!-- Para Deixar a Tela Escurecida ao Abrir o Menu Mobile -->
     
         <div class="access-container">
             <button type="button">Sign In</button>
             <button type="button">Sign Up</button>
+        </div>
+
+        <div class="open-menu-button" id="open-menu-button">  <!-- Abrir Menu Mobile -->
+            <i class="bi bi-list"></i>
         </div>
 
     </header>
@@ -431,7 +456,7 @@
         </div>
 
     </footer>
-
+     
 </body>
 
 </html>
