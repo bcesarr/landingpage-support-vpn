@@ -21,7 +21,7 @@ mobileMenu.addEventListener('click', () => {
 })
 
 // Fazendo a mesma coisa do código acima, mas desta vez, para fechar o menu ao clicar na tela fora do menu
-overlay-menu.addEventListener('click', () => {
+overlayMenu.addEventListener('click', () => {
     // Está função irá remover a classe que foi criada anteriormente, ao clicarem no botão ou na tela fora do menu
     mobileMenu.classList.remove('abrir-menu')
 })
