@@ -68,7 +68,7 @@ nav>ul>li>a {
 }
 
 /* Menu Mobile */
-.open-menu-button {
+.open-menu-button i {
     display: none;
 }
 
