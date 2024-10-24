@@ -1,6 +1,6 @@
 /* Responsividade - Mobile (Celular) */
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 480px) {
     /* Todo corpo da Página */
     body {
         width: 100%;
@@ -13,6 +13,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-top: 30px;
     }
 
     .logo-container {
@@ -47,7 +48,7 @@
     .mobile-menu {  /* Estrutura do Menu Mobile */
         display: block;
         width: 0%;
-        height: 100vh;
+        height: 100%;
         position: fixed;
         top: 0px;
         right: 0px;
@@ -342,7 +343,7 @@
     .comments-container {   /* Seção inteira da parte dos comentários */
         width: 100%;
         text-align: center;
-        margin-bottom: 150px;
+        margin-bottom: 20px;
     }
     
     .comments-container h2 {
@@ -406,17 +407,27 @@
     .comment-select {
         display: flex;
         justify-content: center;
-        margin-top: 70px;
+        margin-top: 35px;
         margin-left: 20px;
         margin-right: 20px;
-        gap: 50px;
+        gap: 150px;
+    }
+
+    .comment-select img {
+        width: 100px;
+        margin: 0;
+    }
+
+    /* Botão das setas da parte dos comentarios */
+    .buttons-comments-sets>button>i {
+        font-size: 45px;
     }
 
 
     /* Seleção entre o final da pagina e o footer */
     .subscribe-container {
         width: 100%;
-        height: 240px;
+        height: 300px;
 
         display: flex;
         justify-content: center;
@@ -429,25 +440,28 @@
         top: 0%;
         left: 0%;
         margin: auto;
-        margin-top: 0;
+        margin-top: 100px;
         margin-bottom: 0px;
+
+        box-shadow: none;
     }
 
     .div-subscribe-title-parag {
-        margin-top: -15px;
+        margin-top: 0px;
     }
 
-    .subscribe-container h2 {
+    .div-subscribe-title-parag h2 {
         font-size: 28px;
         margin-bottom: 15px;
     }
 
-    .subscribe-container p {
+    .div-subscribe-title-parag p {
         font-size: 16px;
     }
 
     .subscribe-container button {
-        margin-top: 25px;
+        margin-top: 0px;
+        margin-bottom: 30px;
     }
 
 
@@ -509,7 +523,7 @@
 
 
 /* Responsividade - Mobile (Tablet) */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     /* Todo corpo da Página */
     body {
             width: 100%;

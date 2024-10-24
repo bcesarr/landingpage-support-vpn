@@ -421,6 +421,7 @@ p {
     width: 100%;
     text-align: center;
     margin-bottom: 176.75px;
+    position: relative;
 }
 
 .comments-container h2 {
@@ -533,7 +534,7 @@ p {
 
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 750%;
+    top: 132%;
     left: 50%;
 
     width: 1140px;
@@ -547,13 +548,13 @@ p {
     margin-top: 58.5px;
 }
 
-.subscribe-container h2 {
+.div-subscribe-title-parag h2 {
     font-size: 35px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.subscribe-container p {
+.div-subscribe-title-parag p {
     font-size: 16px;
     font-weight: 400;
 }
