@@ -92,6 +92,7 @@ nav>ul>li>a {
 /* Configuração de botões em Geral */
 button {
     background-color: transparent;
+    cursor: pointer;
 }
 
 /* Ainda sobre os botões a direita */
@@ -514,38 +515,15 @@ p {
 }
 
 .buttons-comments-sets button {
-    width: 60px;
-    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgba(245, 56, 56, 1);
-    border-radius: 50%;
 }
-
-.buttons-comments-sets>button:hover {
-    background-color: rgba(245, 56, 56, 1);
-    transition: 0.3s;    
-}
-
-.buttons-comments-sets>button:not(:hover) {
-    transition: 0.3s;    
-}
-
 
 .buttons-comments-sets>button>i {
-    margin-top: 4px;
+    margin: auto;
     font-size: 60px;
     color: #f51f1f;
-}
-
-.buttons-comments-sets>button>i:hover {
-    color: white;
-    transition: 0.3s;
-}
-
-.buttons-comments-sets>button>i:not(:hover) {
-    transition: 0.3s;
 }
 
 /* Seleção entre o final da pagina e o footer */
